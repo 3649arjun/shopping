@@ -1,0 +1,25 @@
+print("--------------W E L C O M E   T O    S U P E R M A R K E T------------------------------------")
+list={"oil","toothpaste","soap","brush","hand sanitizers","mask"}
+print(list)
+
+pick=str(input("enter your pick:>")).lower()
+
+if(pick=="oil"):
+    list.remove("oil")
+elif(pick=="toothpaste"):
+       list.remove("toothpaste")
+elif(pick == "soap"):
+       list.remove("soap")
+elif (pick == "brush"):
+       list.remove("brush")
+
+elif(pick == "hand sanitizers"):
+    list.remove("hand sanitizers")
+elif (pick == "mask"):
+    list.remove("mask")
+
+
+else:
+    print("sorry this thing is not in stock right now")
+print(list)
+print("--------------T H A N K S    F O R   C O M I N G------------------------------------")
